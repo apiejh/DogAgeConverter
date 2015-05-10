@@ -13,6 +13,7 @@
 		2653A5B01AFF86DA004D9B87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2653A5AF1AFF86DA004D9B87 /* Images.xcassets */; };
 		2653A5B31AFF86DA004D9B87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2653A5B11AFF86DA004D9B87 /* LaunchScreen.xib */; };
 		2653A5BF1AFF86DB004D9B87 /* DogAgeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2653A5BE1AFF86DB004D9B87 /* DogAgeCalculatorTests.swift */; };
+		2653A5C91AFF8725004D9B87 /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2653A5C81AFF8725004D9B87 /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2653A5B81AFF86DB004D9B87 /* DogAgeCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogAgeCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2653A5BD1AFF86DB004D9B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2653A5BE1AFF86DB004D9B87 /* DogAgeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAgeCalculatorTests.swift; sourceTree = "<group>"; };
+		2653A5C81AFF8725004D9B87 /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		2653A5A61AFF86DA004D9B87 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2653A5C81AFF8725004D9B87 /* AgeOfLaika.jpg */,
 				2653A5A71AFF86DA004D9B87 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2653A5AE1AFF86DA004D9B87 /* Main.storyboard in Resources */,
+				2653A5C91AFF8725004D9B87 /* AgeOfLaika.jpg in Resources */,
 				2653A5B31AFF86DA004D9B87 /* LaunchScreen.xib in Resources */,
 				2653A5B01AFF86DA004D9B87 /* Images.xcassets in Resources */,
 			);
