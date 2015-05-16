@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         if enterHumanYearsTextField.text == "" {
             resultLabel.text = "You need to write the age of your dog."
         } else {
-            let dog = Dog(name: enterNameTextField.text, humanAge: enterHumanYearsTextField.text.toInt()!)
+            let dog = Dog(name: enterNameTextField.text, originalAge: enterHumanYearsTextField.text.toInt()!)
             resultLabel.text = Printer.printResult(dog)
         }
         enterHumanYearsTextField.text = ""

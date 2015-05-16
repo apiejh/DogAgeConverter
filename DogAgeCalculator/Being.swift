@@ -6,4 +6,16 @@
 //  Copyright (c) 2015 Grzegorz Aperliński. All rights reserved.
 //
 
-import Foundation
+class Being {
+    let name:String
+    let originalAge:Int
+    var conversionConstant:Int
+    var convertedAge:Int
+    
+    init(name:String, originalAge:Int) {
+        self.name = name
+        self.originalAge = originalAge
+        self.conversionConstant = 0
+        self.convertedAge = 0
+    }
+}

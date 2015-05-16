@@ -7,8 +7,7 @@
 //
 
 class Calculator {
-    class func calculateAge(dog:Dog) -> Int {
-        let conversionConstant = 7
-        return dog.humanAge * conversionConstant
+    class func calculateAge(being:Being) -> Int {
+        return being.originalAge * being.conversionConstant
     }
 }

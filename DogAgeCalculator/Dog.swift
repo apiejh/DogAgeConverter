@@ -6,15 +6,9 @@
 //  Copyright (c) 2015 Grzegorz Aperliński. All rights reserved.
 //
 
-class Dog {
-    
-    let name:String
-    let humanAge:Int
-    var dogAge:Int
-    
-    init(name:String, humanAge:Int) {
-        self.name = name
-        self.humanAge = humanAge
-        self.dogAge = 0
+class Dog: Being{
+    override init(name:String, originalAge:Int) {
+        super.init(name: name, originalAge: originalAge)
+        self.conversionConstant = 7
     }
 }
