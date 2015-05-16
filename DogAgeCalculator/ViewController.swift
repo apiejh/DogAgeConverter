@@ -24,17 +24,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func convertToDogYearsPressed(sender: UIButton) {
-        let conversionConstant =  7
-        if enterHumanYearsTextField.text != "" {
-            let ageFromTextField = enterHumanYearsTextField.text.toInt()!
-            if enterNameTextField.text != "" {
-                resultLabel.text = "\(enterNameTextField.text) is \(ageFromTextField * conversionConstant) years old in human years."
-            } else {
-                resultLabel.text = "Your dog is \(ageFromTextField * conversionConstant) years old in human years."
-            }
-        } else {
+    @IBAction func convertToDogYearsPressed(sender:UIButton) {
+        if enterHumanYearsTextField.text == "" {
             resultLabel.text = "You need to write the age of your dog."
+        } else {
+            let dog = Dog(name: enterNameTextField.text, humanAge: enterHumanYearsTextField.text.toInt()!)
+            resultLabel.text = Printer.printResult(dog)
         }
         enterHumanYearsTextField.text = ""
         enterNameTextField.text = ""

@@ -14,6 +14,12 @@
 		2653A5B31AFF86DA004D9B87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2653A5B11AFF86DA004D9B87 /* LaunchScreen.xib */; };
 		2653A5BF1AFF86DB004D9B87 /* DogAgeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2653A5BE1AFF86DB004D9B87 /* DogAgeCalculatorTests.swift */; };
 		2653A5C91AFF8725004D9B87 /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2653A5C81AFF8725004D9B87 /* AgeOfLaika.jpg */; };
+		2684C1BD1B0075F60060DB10 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684C1BC1B0075F60060DB10 /* Dog.swift */; };
+		2684C1BE1B0075F60060DB10 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684C1BC1B0075F60060DB10 /* Dog.swift */; };
+		2684C1C01B0077CD0060DB10 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684C1BF1B0077CD0060DB10 /* Calculator.swift */; };
+		2684C1C11B0077CD0060DB10 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684C1BF1B0077CD0060DB10 /* Calculator.swift */; };
+		2684C1C31B0079710060DB10 /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684C1C21B0079710060DB10 /* Printer.swift */; };
+		2684C1C41B0079710060DB10 /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684C1C21B0079710060DB10 /* Printer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,9 @@
 		2653A5BD1AFF86DB004D9B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2653A5BE1AFF86DB004D9B87 /* DogAgeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAgeCalculatorTests.swift; sourceTree = "<group>"; };
 		2653A5C81AFF8725004D9B87 /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
+		2684C1BC1B0075F60060DB10 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		2684C1BF1B0077CD0060DB10 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		2684C1C21B0079710060DB10 /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,9 @@
 				2653A5A81AFF86DA004D9B87 /* AppDelegate.swift */,
 				2653A5AA1AFF86DA004D9B87 /* ViewController.swift */,
 				2653A5AC1AFF86DA004D9B87 /* Main.storyboard */,
+				2684C1BC1B0075F60060DB10 /* Dog.swift */,
+				2684C1BF1B0077CD0060DB10 /* Calculator.swift */,
+				2684C1C21B0079710060DB10 /* Printer.swift */,
 				2653A5AF1AFF86DA004D9B87 /* Images.xcassets */,
 				2653A5B11AFF86DA004D9B87 /* LaunchScreen.xib */,
 				2653A5A61AFF86DA004D9B87 /* Supporting Files */,
@@ -217,7 +229,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2653A5AB1AFF86DA004D9B87 /* ViewController.swift in Sources */,
+				2684C1C31B0079710060DB10 /* Printer.swift in Sources */,
+				2684C1C01B0077CD0060DB10 /* Calculator.swift in Sources */,
 				2653A5A91AFF86DA004D9B87 /* AppDelegate.swift in Sources */,
+				2684C1BD1B0075F60060DB10 /* Dog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2684C1C41B0079710060DB10 /* Printer.swift in Sources */,
+				2684C1BE1B0075F60060DB10 /* Dog.swift in Sources */,
 				2653A5BF1AFF86DB004D9B87 /* DogAgeCalculatorTests.swift in Sources */,
+				2684C1C11B0077CD0060DB10 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DogAgeCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DogAgeCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +431,7 @@
 				2653A5C41AFF86DB004D9B87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2653A5C51AFF86DB004D9B87 /* Build configuration list for PBXNativeTarget "DogAgeCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +440,7 @@
 				2653A5C71AFF86DB004D9B87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
