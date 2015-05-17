@@ -9,13 +9,17 @@
 class Being {
     let name:String
     let originalAge:Int
-    var conversionConstant:Int
+    var criticalAge:Int
+    var conversionConstant:Double
+    var criticalAgeConversionConstant:Double
     var convertedAge:Int
     
     init(name:String, originalAge:Int) {
         self.name = name
         self.originalAge = originalAge
+        self.criticalAge = 0
         self.conversionConstant = 0
+        self.criticalAgeConversionConstant = 0
         self.convertedAge = 0
     }
 }

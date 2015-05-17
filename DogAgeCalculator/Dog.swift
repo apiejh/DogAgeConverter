@@ -9,6 +9,8 @@
 class Dog: Being{
     override init(name:String, originalAge:Int) {
         super.init(name: name, originalAge: originalAge)
-        self.conversionConstant = 7
+        self.criticalAge = 2
+        self.conversionConstant = 4.0
+        self.criticalAgeConversionConstant = 10.5
     }
 }

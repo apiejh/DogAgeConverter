@@ -7,7 +7,11 @@
 //
 
 class Calculator {
-    class func calculateAge(being:Being) -> Int {
-        return being.originalAge * being.conversionConstant
+    class func calculateAge(being:Being) -> Double {
+        if being.originalAge <= being.criticalAge {
+            return Double(being.originalAge) * being.criticalAgeConversionConstant
+        } else {
+            return Double(being.originalAge - being.criticalAge) * being.conversionConstant + Double(being.criticalAge) * being.criticalAgeConversionConstant
+        }
     }
 }
